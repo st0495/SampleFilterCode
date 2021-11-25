@@ -1,0 +1,37 @@
+.dashboard {
+  display: flex;
+  flex: 1;
+  height: 100vh;
+  .sidebar {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 25%;
+
+    .category-container {
+      height: 50%;
+      border: 1px solid grey;
+      overflow: auto;
+    }
+    .brand-container {
+      height: 50%;
+      border: 1px solid grey;
+      overflow: auto;
+    }
+  }
+  .page-container {
+    width: 75%;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      overflow-y: auto;
+      flex-direction: row;
+    }
+    .page-header {
+      border: 1px solid grey;
+    }
+  }
+}

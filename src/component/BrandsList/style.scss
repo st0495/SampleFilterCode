@@ -1,0 +1,7 @@
+.list-container {
+  overflow: auto;
+  .ant-checkbox-group {
+    display: flex;
+    flex-direction: column;
+  }
+}
